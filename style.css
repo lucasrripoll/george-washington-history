@@ -2,3 +2,13 @@
 @media(max-width:850px){.hero{padding-left:7vw;padding-right:7vw}.hero-art{opacity:.8}.intro{grid-template-columns:1fr 2fr;gap:30px}.intro-main{grid-column:2}.pullquote{grid-column:2;grid-row:auto;padding:10px 0 0}.section-wrap{padding:85px 8vw}.split-content,.legacy-grid,.sources{gap:6vw}.vertical-note{right:-2%}.hero-bottom{left:7vw}}
 @media(max-width:620px){.topbar{height:66px;padding:0 6vw}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;background:var(--green);padding:14px 6vw 22px;flex-direction:column;gap:14px}.nav-links.open{display:flex}.hero{height:auto;min-height:720px;display:block;padding:75px 7vw 80px}.hero-copy{position:relative;z-index:2}.hero-art{position:absolute;inset:190px -27% 40px 16%;opacity:.63}.hero h1{font-size:65px}.hero-deck{max-width:310px}.hero-bottom{bottom:22px}.hero-caption{bottom:2%}.section-wrap{padding:72px 7vw}.intro{display:block}.intro .section-label{margin-bottom:40px}.intro-main{max-width:none}.pullquote{margin-top:35px}.section-wrap h2,.presidency h2{font-size:43px}.split-content,.legacy-grid,.sources{display:block}.split-content .prose,.legacy-grid .prose{margin-top:32px}.timeline{grid-template-columns:repeat(2,1fr);row-gap:20px;margin-top:40px}.timeline div:nth-child(3){border-left:0}.stat-row{gap:16px;justify-content:space-between}.stat-row div{display:block}.stat-row strong{display:block;font-size:28px}.stat-row span{font-size:9px}.sources ul{margin-top:25px}footer{padding:25px 7vw;flex-wrap:wrap;gap:16px}footer>span{order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.exhibit-section{background:var(--paper)}
+.source-note{font-size:13px;color:#66716a;line-height:1.7}
+.source-list{list-style:none;padding:0;margin:0}
+.source-list li{border-bottom:1px solid #c9c1b4;padding:13px 0;font-size:12px;line-height:1.65;color:#4f5b53;scroll-margin-top:100px}
+.source-list li:target{background:#f3e8d4}
+.source-list strong{color:var(--green)}
+.source-list a,.cite{color:#8b4e30}
+.source-list a:hover,.cite:hover{color:#bd653e}
+.cite{font-size:.78em;font-weight:700;text-decoration:none;vertical-align:super;padding-left:2px}
+@media(max-width:850px){.nav-links{gap:14px}.nav-links a{font-size:10px}}
